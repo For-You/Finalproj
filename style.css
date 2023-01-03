@@ -1,0 +1,36 @@
+body{
+    background-color: aliceblue;
+}
+header h1 {
+    font-size: 50px;
+    font-weight: 500;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    text-align: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+.container{
+    display: flex;
+}  
+.details{
+   flex-direction: column;
+   display: flex;
+   height: 500px; 
+   justify-content: center;
+
+    
+}
+.right{
+    display: flex;
+    height:800px;
+    width:1120px ;
+    align-items: center;
+    justify-content: center;
+}
+.right img{ 
+    
+
+    width: 400px;
+    height: 250px;
+}
